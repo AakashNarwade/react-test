@@ -1,0 +1,56 @@
+img {
+  width: 100%;
+  height: 250px;
+
+  object-fit: contain;
+}
+
+.upcoming_img {
+  width: 200px;
+}
+
+.upcoming_container {
+  width: auto;
+  margin-left: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex: 5;
+  gap: 10px;
+  flex-direction: row;
+  flex-basis: 0 0 33.333%;
+  border-radius: 8px;
+  /* border: 2px solid white; */
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.upcoming_container::-webkit-scrollbar {
+  width: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.upcoming_container {
+  width: auto;
+}
+
+.upcoming_imgContainer > img {
+  /* width: 200px; */
+  height: 200px;
+}
+
+/* .leftArrow {
+    color: white;
+    position: absolute;
+    top: 180px;
+    cursor: pointer;
+  }
+  
+  .rightArrow {
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 180px;
+    cursor: pointer;
+  } */
